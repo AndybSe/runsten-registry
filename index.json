@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-09T06:39:09Z",
+  "plugins": [
+    {
+      "name": "agentforge",
+      "version": "0.1.0",
+      "description": "AgentForge operational tools: doctor, triage, compare, run (dry-run planner)",
+      "abi": "runsten:pipe@1",
+      "sha256": "b7d443adfaba86410977d6b6e9249f06946fb423c93f1297986505819d23c573",
+      "publisher_key": "ed3561abae592e190f161c2f5848bd5a64514d6f8bef170d9350be4c037ffeb2",
+      "download_url": "https://raw.githubusercontent.com/AndybSe/runsten-registry/main/plugins/agentforge-0.1.0.rplg",
+      "capabilities": [
+        "credential:agentforge",
+        "feature:pro:agentforge"
+      ]
+    },
+    {
+      "name": "azdo",
+      "version": "0.1.0",
+      "description": "Azure DevOps pipeline engineering tool suite (simulate, fix, convert, graph, attest)",
+      "abi": "runsten:pipe@1",
+      "sha256": "7f879634d74d09b72fbb55a7a437e86425bd9f5fc013b6f3ca5f037b2a8d8ddc",
+      "publisher_key": "ed3561abae592e190f161c2f5848bd5a64514d6f8bef170d9350be4c037ffeb2",
+      "download_url": "https://raw.githubusercontent.com/AndybSe/runsten-registry/main/plugins/azdo-0.1.0.rplg",
+      "capabilities": [
+        "feature:pro:azdo"
+      ]
+    },
+    {
+      "name": "azdo-lint",
+      "version": "0.1.0",
+      "description": "High-performance declarative YAML linter for Azure DevOps pipelines",
+      "abi": "runsten:pipe@1",
+      "sha256": "746cc8653db8ebe2c90ebd2327dc9f6a7a02ba040931e88e46f73167f0a41f41",
+      "publisher_key": "ed3561abae592e190f161c2f5848bd5a64514d6f8bef170d9350be4c037ffeb2",
+      "download_url": "https://raw.githubusercontent.com/AndybSe/runsten-registry/main/plugins/azdo-lint-0.1.0.rplg",
+      "capabilities": [
+        "feature:pro:azdo"
+      ]
+    },
+    {
+      "name": "dora",
+      "version": "0.1.0",
+      "description": "DevOps Research and Assessment (DORA) delivery velocity & stability metrics calculator",
+      "abi": "runsten:pipe@1",
+      "sha256": "83b8fbec599e8a36050bad885bd419b270f88dd363d19d95f2fddef73287a497",
+      "publisher_key": "ed3561abae592e190f161c2f5848bd5a64514d6f8bef170d9350be4c037ffeb2",
+      "download_url": "https://raw.githubusercontent.com/AndybSe/runsten-registry/main/plugins/dora-0.1.0.rplg",
+      "capabilities": [
+        "feature:enterprise:dora"
+      ]
+    },
+    {
+      "name": "present",
+      "version": "0.1.0",
+      "description": "Interactive HTML slide generator from markdown decks",
+      "abi": "runsten:pipe@1",
+      "sha256": "a9738035317a9587c5a0604d2cd7b142a33cd8e27c7e70bc7d61a5695ba8f775",
+      "publisher_key": "ed3561abae592e190f161c2f5848bd5a64514d6f8bef170d9350be4c037ffeb2",
+      "download_url": "https://raw.githubusercontent.com/AndybSe/runsten-registry/main/plugins/present-0.1.0.rplg",
+      "capabilities": []
+    },
+    {
+      "name": "servicenow",
+      "version": "0.1.0",
+      "description": "ServiceNow enterprise ITIL bridge (incident triage and change risk assessment)",
+      "abi": "runsten:pipe@1",
+      "sha256": "273351dfcc61da3bd8fecba9a603da2a7cfadc440cd1c7625825d6a5b33d8ce0",
+      "publisher_key": "ed3561abae592e190f161c2f5848bd5a64514d6f8bef170d9350be4c037ffeb2",
+      "download_url": "https://raw.githubusercontent.com/AndybSe/runsten-registry/main/plugins/servicenow-0.1.0.rplg",
+      "capabilities": [
+        "credential:servicenow",
+        "feature:enterprise:servicenow"
+      ]
+    },
+    {
+      "name": "stats",
+      "version": "0.1.0",
+      "description": "Token usage aggregation over NDJSON usage logs (by model, day, total)",
+      "abi": "runsten:pipe@1",
+      "sha256": "841a1f427c1be8f54606426eac3d7cc7148b20ce1a58f1e302a4f83a6fdd2012",
+      "publisher_key": "ed3561abae592e190f161c2f5848bd5a64514d6f8bef170d9350be4c037ffeb2",
+      "download_url": "https://raw.githubusercontent.com/AndybSe/runsten-registry/main/plugins/stats-0.1.0.rplg",
+      "capabilities": []
+    }
+  ],
+  "signature": "d980499ea16e022f69365ce70e57fa5766d6eb96699225f1045f92582454e1b529173a6bfcf8ec680fcd54e107fa94e26657bd0a7036b0dc4e7438a48ba11708"
+}
